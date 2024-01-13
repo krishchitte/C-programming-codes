@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b;
+    int two = 2;
+    printf("Enter 1st side of rectangle a \n");
+    scanf("%d",&a);
+    printf("Enter 2nd side of rectangle b \n");
+    scanf("%d",&b);
+    int sum = a + b;
+    printf("The perimeter of the rectangle is %d", two * sum );
+    return 0;
+}
